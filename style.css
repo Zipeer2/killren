@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: url(img/IMG_4263.JPG) 0 0 no-repeat;
+    background: url(/img/IMG_4263.JPG) 0 0 no-repeat;
     background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -105,7 +105,7 @@ body {
 }
 
 .btn1::after {
-    content: url(img/onlyfans-logo-C7DEFE44F5-seeklogo.com.png);
+    content: url(/img/onlyfans-logo-C7DEFE44F5-seeklogo.com.png);
     margin-left: 10px;
     vertical-align: middle;
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .btn3::after {
-    content: url(img/telegram.png);
+    content: url(/img/telegram.png);
     margin-left: 10px;
     vertical-align: middle;
 }
