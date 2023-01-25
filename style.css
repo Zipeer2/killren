@@ -8,48 +8,37 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: url(/img/IMG_4263.JPG) 0 0 no-repeat;
+    background: url(img/IMG_14491.jpg) 0 0 no-repeat;
     background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-}
+    background-position-y: 25%;
+} 
 
 .content {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-size: 2rem;
+    margin-top: 5em;
+    padding: 0 10%;
 }
 
 .content__firstnamemodel {
     font-weight: 300;
-    margin-bottom: 0.2em;
     text-align: center;
     letter-spacing: -3px;
     text-shadow: 2px 2px 5px rgb(7, 7, 7);
-    margin-top: 2em;
-    user-select: none;
-}
-
-.content__position {
-    margin-bottom: 21.440px;
-    ;font-weight: 400;
-    text-align: center;
-    letter-spacing: -1.5px;
-    text-shadow: 2px 2px 5px rgb(7, 7, 7);
-    user-select: none;     
+    margin: 0;
 }
 
 .content__links {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 1.6em;
-    padding: 0 40px;
+    margin-top: 3em;
+    
 }
 
 .links {
@@ -76,16 +65,16 @@ body {
     line-height: normal;
     margin-bottom: 15px;
     outline: none;
-    padding: 15px 100px;
+    padding: 15px 0;
     text-align: center;
     text-decoration: none;
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 400px;
+    min-width: 300px;
     will-change: transform;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.65);
 }
 
 .btn:disabled {
@@ -93,111 +82,49 @@ body {
 }
 
 .btn:hover {
-  color: #000000;
-  background-color: rgba(226, 107, 121, 0.85);
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+    color: #000000;
+    background-color: rgba(226, 107, 121, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
 }
 
 .btn:active {
-  box-shadow: none;
-  transform: translateY(0);
+    box-shadow: none;
+    transform: translateY(0);
 }
 
 .btn1::after {
-    content: url(/img/onlyfans-logo-C7DEFE44F5-seeklogo.com.png);
-    margin-left: 10px;
+    content: url(img/onlyfans-logo-C7DEFE44F5-seeklogo.com.png);
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 .btn2::after {
     content: '';
     font-size: 24px; 
-    margin-left: 10px;
-    vertical-align: middle;
+    margin-left: 5px;
 }
 
 .btn3::after {
-    content: url(/img/telegram.png);
-    margin-left: 10px;
+    content: url(img/telegram.png);
     vertical-align: middle;
+    margin-left: 5px;
+
 }
 
 .btn1 {
     margin-top: 0;
 }
 
-
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 730px) {
     body {
-        background-position-y: 15%;
-    }
-}
-/*
-@media screen and (max-width: 319px) {
-    .body {
-        font-size: 15px;
-    }
-    
-    .btn {
-        padding: 9px 35px;
+        background-position-y: 55%;
     }
 }
 
-@media screen and (min-width: 320px) {
-    .body {
-        font-size: 15px;
-    }
-    
-    .btn {
-        padding: 11px 45px;
-    }
-}
 
-@media screen and (min-width: 375px) {
-    .body {
-        font-size: 22px;
-    }    
-}
 
-@media screen and (min-width: 425px) {
-    .body {
-        font-size: 24px;
-    }    
-}
 
-@media screen and (min-width: 768px) {
-    .body {
-        font-size: 28px;
-    }    
-}
-
-@media screen and (min-width: 1024px) {
-    .body {
-        font-size: 32px;
-    }    
-}
-
-@media screen and (min-width: 1440px) {
-    .body {
-        font-size: 45px;
-    }
-    
-    .btn {
-        padding: 15px 60px;
-    }
-}
-
-@media screen and (min-width: 1440px) {
-    .body {
-        font-size: 45px;
-    }
-    
-    .btn {
-        padding: 15px 60px;
-    }
-}
 
 
 
