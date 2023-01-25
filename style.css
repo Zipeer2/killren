@@ -80,13 +80,16 @@ body {
     transform: translateY(0);
 }
 
-.btn1 {
-    padding: 15px 35px;
-}
-
 .logo {
     vertical-align: middle;
     margin-left: 2px;
+    height: 23px;
+}
+
+.logo2 {
+    vertical-align: middle;
+    margin-left: 2px;
+    height: 23px;
 }
 
 .logotg {
@@ -95,14 +98,6 @@ body {
     width: 23px;
     height: 23px;
 }
-
-.btn2::after {
-    content: '';
-    font-size: 24px; 
-    margin-left: 5px;
-}
-
-
 
 @media screen and (min-width: 730px) {
     body {
