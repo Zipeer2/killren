@@ -29,7 +29,7 @@ body {
 .content__firstnamemodel {
     font-weight: 300;
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -0.5px;
     text-shadow: 2px 2px 5px rgb(7, 7, 7);
     margin: 0;
     user-select: none;
@@ -103,11 +103,19 @@ body {
     body {
         background-position-y: 55%;
     }
+
+    .content__firstnamemodel {
+        font-size: 68px;
+    }
 }
 
 @media screen and (min-width: 800px) {
     .btn {
         padding: 14px 45px;
+    }
+
+    .content__firstnamemodel {
+        font-size: 70px;
     }
 }
 
@@ -115,11 +123,19 @@ body {
     .btn {
         padding: 17px 60px;
     }
+
+    .content__firstnamemodel {
+        font-size: 72px;
+    }
 }
 
 @media screen and (min-width: 1250px) {
     body {
         background-position-y: 70%;
+    }
+
+    .content__firstnamemodel {
+        font-size: 74px;
     }
 }
 
